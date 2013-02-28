@@ -1,0 +1,79 @@
+.header {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+.logo {
+	background: url("http://www.huadianyuan.com/static/img/home-env.png") 0 0 no-repeat scroll transparent;
+	height: 100px;
+	width: 258px;
+	text-indent: -9999px;
+}
+.searchbar {
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+.searchbar-text {
+	border: 1px solid #ddd;
+	height: 36px;
+	font-size: 16px;
+	line-height: 36px;
+	width: 400px;
+	padding-left: 10px;
+	margin-right: -10px;
+}
+.searchbar-submit {
+	height: 40px;
+	color: #fff;
+	background: #ff6970;
+	background-image: url("http://www.huadianyuan.com/static/img/home-env.png");
+	background-position: -232px -232px;
+	_background-position: -232px -235px;
+	border: 1px solid #fe1c27;
+	width: 100px;
+	padding-left: 20px;
+	font-family: "微软雅黑";
+}
+.message {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.message li.icon {
+	padding-left: 30px;
+	background: url("http://www.huadianyuan.com/static/img/home-env.png") -232px -178px no-repeat transparent;
+}
+
+.nav-wrap {
+	width: 100%;
+	background: #FF6970;
+	height: 40px;
+}
+.nav {
+	width: 980px;
+	margin: 0 auto;
+}
+.nav li {
+	float: left;
+	cursor: pointer;
+	border-right: 1px solid #FE1C27;
+	margin-left: 0px;
+}
+.nav li.first {
+	border-left: 1px solid #FE1C27;
+}
+.nav li.current {
+	background: #FE1C27;
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.nav a:hover {
+	background: #FE1C27;
+}

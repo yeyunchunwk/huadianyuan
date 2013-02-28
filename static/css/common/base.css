@@ -1,0 +1,53 @@
+.fs-12 {
+	font-size: 12px;
+}
+.fs-14 {
+	font-size: 14px;
+}
+.fs-16 {
+	font-size: 16px;
+}
+.fs-19 {
+	font-size: 19px;
+}
+.fw-b {
+	font-weight: bold;
+}
+.fw-n {
+	font-weight: normal;
+}
+.fc-white {
+	color: white;
+}
+.fc-black {
+	color: black;
+}
+.fc-gray-9 {
+	color: #999;
+}
+.fc-gray-6 {
+	color: #666;
+}
+.fc-gray-4 {
+	color: #444;
+}
+.fc-gray-3 {
+	color: #333;
+}
+.fc-blue{
+	color:#1996E6;
+}
+.ln-20{
+	line-height:20px;
+}
+.justifyfix {
+	display: inline-block;
+	width: 100%;
+	content: ' ';
+	visibility: hidden;
+	height: 0;
+}
+li{
+	list-style-type:none;
+	margin:0px;
+}

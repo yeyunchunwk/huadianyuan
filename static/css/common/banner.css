@@ -1,0 +1,85 @@
+/***for the banner***/
+.banner {
+
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+.banner-content {
+	width: 545px;
+	float: left;
+}
+.banner-content li {
+	float: left;
+	margin-right: 8px;
+}
+.banner-content a {
+	display: inline-block;
+	margin-bottom: 8px;
+	background: #ddd;
+	vertical-align: top;
+}
+.w-200 {
+	width: 200px;
+}
+.w-208 {
+	width: 208px;
+}
+.w-105 {
+	width: 105px;
+}
+.w-40 {
+	width: 40px;
+}
+.w-216 {
+	width: 216px;
+}
+.h-200 {
+	height: 200px;
+}
+.h-208 {
+	height: 208px;
+}
+.h-316 {
+	height: 316px;
+}
+.h-100 {
+	height: 100px;
+}
+.h-40 {
+	height: 40px;
+}
+.banner-content .mr-8 {
+	margin-right: 8px;
+}
+.banner-content .relative {
+	position: relative;
+}
+.banner-content .absolute {
+	position: absolute;
+}
+.banner-content .no-margin, .banner-tap .no-margin {
+	margin: 0;
+}
+.banner-tap {
+	overflow: hidden;
+	zoom: 1;
+}
+.banner-tap li {
+
+	padding: 6px;
+	border-bottom: 1px dotted #ddd;
+}
+.banner-tap .title {
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+.banner-tap a {
+	display: inline-block;
+	margin-right: 6px;
+	width: 40px;
+	height: 40px;
+	background: #ddd;
+}
+.banner-tap li.last {
+	border-bottom: 0;
+}

@@ -1,7 +1,11 @@
+.header-wrap{
+	margin-bottom:10px;
+}
 .header {
 	position: relative;
 	width: 980px;
 	margin: 0 auto;
+	
 }
 .logo {
 	background: url("http://www.huadianyuan.com/static/img/home-env.png") 0 0 no-repeat scroll transparent;
@@ -18,7 +22,7 @@
 	border: 1px solid #ddd;
 	height: 36px;
 	font-size: 16px;
-	line-height: 36px;
+	_line-height:36px;
 	width: 400px;
 	padding-left: 10px;
 	margin-right: -10px;

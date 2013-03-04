@@ -1,8 +1,12 @@
 /**主要是主内容区布局**/
+.content{
+	padding-top:10px;
+	padding-bottom:30px;
+	background:url("http://www.huadianyuan.com/static/img/background.png") repeat;
+}
 .content-wrap {
 	width: 980px;
 	margin: 0 auto;
-	height: 1000px;
 }
 .main {
 	float: left;
@@ -10,11 +14,9 @@
 }
 .main-content {
 	margin-right: 260px;
-	height: 1000px;
 }
 .side {
 	float: left;
 	margin-left: -250px;
 	width: 250px;
-	height: 1000px;
 }

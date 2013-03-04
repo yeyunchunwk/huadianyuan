@@ -13,6 +13,9 @@ body{
 .fs-19 {
 	font-size: 19px;
 }
+.fs-35{
+	font-size: 35px;
+}
 .fw-b {
 	font-weight: bold;
 }
@@ -21,6 +24,15 @@ body{
 }
 .fc-white {
 	color: white;
+}
+.fc-red{
+	color:#FE1C27;
+}
+.fc-low-red{
+	color:#FF6970;
+}
+.fc-yellow{
+	color:#FEDD17;
 }
 .fc-black {
 	color: black;
@@ -54,7 +66,20 @@ li{
 	list-style-type:none;
 	margin:0px;
 }
+.clearfix:after{
+	content:'.';
+	height:0;
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
 .border-box{
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
 }

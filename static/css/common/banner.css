@@ -1,8 +1,9 @@
 /***for the banner***/
 .banner {
-
+	margin-bottom:10px;
 	padding: 8px;
 	border: 1px solid #ddd;
+	background:#fff;
 }
 .banner-content {
 	width: 545px;

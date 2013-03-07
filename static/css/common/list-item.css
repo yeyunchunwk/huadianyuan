@@ -79,7 +79,7 @@
 .icon.renren{
 	background-position:-240px -330px;
 }
-.button {
+.list-item .button {
 	display: inline-block;
 	padding: 0 30px;
 	color: #fff;
@@ -89,10 +89,10 @@
 	margin-right: 30px;
 	margin-left: 10px;
 }
-.button.buy {
+.list-item .button.buy {
 	background: #FE1C27;
 }
-.button.look {
+.list-item .button.look {
 	background: #FF6970;
 }
 .list-item.vertical .button {

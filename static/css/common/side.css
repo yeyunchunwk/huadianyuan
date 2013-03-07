@@ -1,0 +1,65 @@
+.side-item {
+	padding: 15px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.user-center {
+
+	text-align: center;
+	padding-top: 90px;
+	background: url("http://www.huadianyuan.com/static/img/home-env.png") no-repeat 10px -418px transparent;
+	background-color: #fff;
+}
+.button-wrap {
+	text-align: left;
+	position: relative;
+}
+.user-center .name, .user-center .password {
+	width: 180px;
+	padding-left: 10px;
+	height: 30px;
+	+line-height: 30px;
+	border: 1px solid #FF6970;
+	margin-bottom: 10px;
+	margin-top: 8px;
+}
+.user-center .forget-pass,
+.user-center .regist {
+	text-decoration: underline;
+	position: absolute;
+	right:0px;
+	_right:10px;
+}
+.user-center .forget-pass {
+	top: 0px;
+}
+.user-center .regist {
+	top: 16px;
+}
+.user-center .tel {
+	background: url("http://www.huadianyuan.com/static/img/home-env.png") no-repeat 3px -102px transparent;
+	color: #FF6970;
+	height: 40px;
+	padding-top: 20px;
+	text-align: left;
+	padding-left: 50px;
+	margin-bottom: 0;
+}
+.user-center .button {
+	background: #FF6970;
+	text-align: center;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	border: none;
+	padding: 0 30px;
+}
+fieldset {
+	border: 1px solid #FF6970;
+	+padding: 0px 11px 11px 10px;
+}
+legend {
+	padding: 0 10px;
+}
